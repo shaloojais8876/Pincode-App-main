@@ -1,0 +1,39 @@
+#main_form {
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+
+    div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        input {
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+
+        input:focus {
+            border: 1px solid blue;
+            outline: 1px solid blue;
+        }
+        .error_msg{
+            color: red;
+            padding-left: 5px;
+        }
+    }
+
+    button {
+        border: none;
+        background-color: black;
+        color: #ffffff;
+        padding: 10px 50px;
+        border-radius: 5px;
+    }
+}

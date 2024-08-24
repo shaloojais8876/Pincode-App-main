@@ -1,0 +1,24 @@
+.post_office_card {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.6vw;
+
+    p {
+        font-weight: 500;
+
+        span {
+            font-weight: 400;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .post_office_card {
+        padding: 10px;
+        font-size: 2.5vw;
+    }
+}

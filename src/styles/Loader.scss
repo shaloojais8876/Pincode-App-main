@@ -1,0 +1,26 @@
+#loader_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .loader {
+        width: 100px;
+        height: 100px;
+        border: 22px dotted rgb(211, 210, 210);
+        border-top-color: #808080;
+        border-radius: 50%;
+        animation: loading 1.5s linear infinite;
+    }
+
+    @keyframes loading {
+        // 0% {
+        //     transform: rotate(0deg);
+        // }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}
